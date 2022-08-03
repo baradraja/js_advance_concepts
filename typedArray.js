@@ -12,6 +12,8 @@ for(let i=0; i<int32View.length; i++)
     int32View[i] = i *3;
 console.log(int32View);
 
+//int32View.push(5);
+
 const int16View = new Int16Array(buffer);
 
 for (let i = 0; i < int16View.length; i++) {
